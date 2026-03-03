@@ -1,33 +1,54 @@
-# Guessing_Game
-A fun and interactive Fruit Guessing Game built in Python using the random module. The player has 4 attempts to guess the correct fruit from a predefined list, with progressively helpful hints provided after each wrong guess.
-Features
+A collection of interactive Python games built using Tkinter and the random module. These games are beginner-friendly, visually appealing, and fun to play, including Fruit Guessing, Color Guessing, and Math Puzzle Challenges.
 
-A list of 10 different fruits to guess from.
+📝 Games Included
+1. Fruit Guessing Game 🍎
 
-Randomly selects one fruit for each game.
+Objective: Guess the correct fruit from a predefined list.
 
-4 attempts for the player to guess correctly.
+Attempts: 4 per game.
 
-Progressive hints:
+Hints:
 
-Number of characters in the fruit name.
+Number of characters in the fruit name
 
-All letters hidden except the last letter.
+All letters hidden except the last letter
 
-Only the first letter shown, the rest hidden.
+Only the first letter shown
 
-Displays the correct answer if all attempts are used.
+Gameplay: Terminal-based, interactive, beginner-friendly.
 
-Simple terminal-based interaction, beginner-friendly.
+2. Color Guessing Game 🎨
 
-How to Play
+Objective: Guess the color displayed as a colored square.
 
-Run the Python script.
+Attempts: 5 per round.
 
-The list of fruits will be displayed.
+Hints:
 
-Enter your guess when prompted.
+First letter of the color
 
-If the guess is wrong, a hint will be displayed depending on your attempt.
+Number of letters in the color name
 
-Keep guessing until you either guess the fruit correctly or use all 4 attempts.
+Last letter of the color
+
+First two letters revealed if still wrong
+
+Features: GUI-based, fun visual interaction, automatic new round generation.
+
+3. Math Puzzle Game 🧮
+
+Objective: Solve random math problems (addition, subtraction, multiplication).
+
+Attempts: 3 per puzzle.
+
+Hints: “Try higher” or “Try lower” after wrong guesses.
+
+Features:
+
+GUI-based with Tkinter
+
+Score tracking
+
+Visually styled frames and buttons
+
+Automatic generation of new puzzles after each round
